@@ -1,8 +1,22 @@
-.first.full-name::after {
+.first.full-name::after,
+#reply-control .reply-to .composer-action-title .topic-link::after, 
+#reply-control .reply-to .composer-action-title .user-link::after,
+#reply-control .reply-to .composer-action-title .post-link::after,
+.user-card .first-row .names .name-username-wrapper::after, .group-card .first-row .names .name-username-wrapper::after {
     content:"";
-    background-image:url("/secure-media-uploads/uploads/original/4X/7/7/7/777660a0cd6fa1b6d9f405babffc348b2edd06f2.png");
+    background-image:url("https://devforum-uploads.s3.us-east-2.amazonaws.com/uploads/original/4X/7/7/7/777660a0cd6fa1b6d9f405babffc348b2edd06f2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSAZKDNRF74OVZGC%2F20221111%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20221111T054559Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=b98570edda02f5e98de40529398e0f6aa2075e8f33a6d89651a827e314b36076");
     width:20px;
     height:20px;
     background-repeat:no-repeat;
     background-size:16px 16px;
+    display:inline-block;
+}
+.user-main .about .details h2::after {
+    content:"";
+    background-image:url("https://devforum-uploads.s3.us-east-2.amazonaws.com/uploads/original/4X/7/7/7/777660a0cd6fa1b6d9f405babffc348b2edd06f2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSAZKDNRF74OVZGC%2F20221111%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20221111T054559Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=b98570edda02f5e98de40529398e0f6aa2075e8f33a6d89651a827e314b36076");
+    width:45px;
+    height:45px;
+    background-repeat:no-repeat;
+    background-size:45px 45px;
+    display:inline-block;
 }
